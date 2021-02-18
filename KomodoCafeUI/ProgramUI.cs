@@ -24,7 +24,7 @@ namespace KomodoCafeUI
             while (continueToRun)
             {
                 Console.Clear();
-                Console.WriteLine("Welcome to the Komodo App.\n" +
+                Console.WriteLine("Welcome to the Komodo Menu Manager App.\n" +
                     "1.Show all menu items.\n" +
                     "2. Add a new item.\n" +
                     "3. Remove an item\n" +

@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D73CF3F7-5F12-46BF-9C81-6CDB0D082FCB}</ProjectGuid>
+    <ProjectGuid>{A5770480-32FD-4E67-BD14-07102BC5542F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KomodoCafeUnitTests</RootNamespace>
-    <AssemblyName>KomodoCafeUnitTests</AssemblyName>
+    <RootNamespace>BadgesUnitTesting</RootNamespace>
+    <AssemblyName>BadgesUnitTesting</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,16 +49,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KomodoTests.cs" />
+    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KomodoRepository\KomodoCafeRepository.csproj">
-      <Project>{9583d4cd-7469-4763-9e91-4a3d124a61ca}</Project>
-      <Name>KomodoCafeRepository</Name>
+    <ProjectReference Include="..\Chal.3_BadgesRepo\Chal.3_BadgesRepo.csproj">
+      <Project>{4ae42f1c-985f-4838-8b83-e877d518c0ed}</Project>
+      <Name>Chal.3_BadgesRepo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
